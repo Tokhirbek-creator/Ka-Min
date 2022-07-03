@@ -1,0 +1,29 @@
+<body>
+  <form action="/user/signin" method="post">
+    <input checked="" id="signin" name="action" type="radio" value="signin">
+    <label for="signin">Вход</label>
+    <input id="signup" name="action" type="radio" value="signup">
+    <label for="signup">Регистрация</label>
+    <input id="reset" name="action" type="radio" value="reset">
+    <label for="reset">Восстановить</label>
+    <div id="wrapper">
+      <div id="arrow"></div>
+      <input id="email" placeholder="Email" type="email" name="email">
+      <input id="pass" placeholder="Password" type="password" name="password">
+      <input id="repass" placeholder="Имя" type="text" name="name">
+    </div>
+    <button type="submit">
+      <span>
+        Обновить пароль
+        <br>
+        Вход
+        <br>
+        Регистрация
+      </span>
+    </button>
+  </form>
+  <div id="hint">Click on the tabs</div>
+
+  <link rel="stylesheet" href="/styles/style.css">
+
+</body>

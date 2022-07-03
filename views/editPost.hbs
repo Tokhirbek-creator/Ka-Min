@@ -1,0 +1,11 @@
+<form name="editPost">
+  <input type="text" name="title" placeholder="Title" value="{{post.title}}"></input>
+  <input type="file" name="img" placeholder="Bmage" value="{{post.img}}"></input>
+  <input type="text" name="body" placeholder="Body" value="{{post.body}}"></input>
+  <input type="hidden" name="id" value="{{post.id}}"></input>
+  <button id="redact">Redact</button>
+
+</form>
+
+
+<script defer src="/js/editPost.js"></script>
